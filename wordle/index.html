@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="../dist/reset.css">
+		<link rel="stylesheet" href="../dist/reveal.css">
+		<link rel="stylesheet" href="../dist/theme/night.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="../plugin/highlight/monokai.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<img width="50%" src="/images/cyf-logo.png">
+					<img width="40%" src="/images/nodejs-logo.png">
+					<h2>Week 4</h2>
+				</section>
+				<section>
+					<section data-auto-animate>
+						<h2>Coding is...</h2>
+					</section>
+					<section data-auto-animate>
+						<h2 style="color: #E57373;">Coding is...</h2>
+						<ul style="color: #E57373;">
+							<li>deadlines</li>
+							<li>requirements</li>
+							<li>stress</li>
+						</ul>
+					</section>
+					<section data-auto-animate>
+						<h2 style="color: #81C784;">Coding is...</h2>
+						<ul style="color: #81C784;">
+							<li>ideas</li>
+							<li>the creative process</li>
+							<li>endless possibilities</li>
+						</ul>
+						<h5 style="margin-top: 20px;">Starting with <em style="color: #FFF176;">only an idea</em> and creating <b style="color: #64B5F6;">something from nothing</b></h4>
+					</section>
+				</section>
+				<section data-transition="zoom">
+					<h2>Let's play a game...</h2>
+					<a target="_blank" href="https://www.nytimes.com/games/wordle/index.html">
+						<img width="75%" src="/images/wordle.jpg"/>
+					</a>
+				</section>
+				<section>
+					<h3>The story behind the game...</h3>
+					<ul>
+						<li class="fragment">💻 Created by <b style="color: #FFF176;">one person</b> at home to play with his partner</li>
+						<li class="fragment">🤔 Made using only <b style="color: #64B5F6;">JavaScript / HTML / CSS</b> - <em>skills that you already have!</em></li>
+						<li class="fragment">🌐 Eventually went <b style="color: #E57373;">viral</b> after being shared with a few friends</li>
+						<li class="fragment">💰 Bought by the NY Times for <b style="color: #81C784;">> $1 million</b></li>
+					</ul>
+				</section>
+				<section>
+					<h3>Let's make a Wordle Clone CLI</h3>
+					<ul>
+						<li class="fragment">What is a <b style="color: #64B5F6;">CLI</b>?</li>
+						<li class="fragment">Can you think of some example of CLI's you have used?</li>
+						<img class="fragment" src="/images/cli-example.png" />
+					</ul>
+				</section>
+				<section>
+					<h4>But first, what are the rules?</h4>
+					<img width="65%" src="/images/wordle-rules.png"/>
+				</section>
+				<section data-transition="zoom">
+					<div class="r-stack">
+						<img width="100%" src="/images/vscode.png"/>
+						<h2 style="margin-bottom: 30%;">Time to code</h2>
+					</div>
+				</section>
+				<section>
+					<h3>Stretch Ideas</h3>
+					<ul>
+						<li class="fragment">Tweak the rules to allow more guesses or fewer guesses? Choose <b style="color: #FFF176;">level of difficulty?</b></li>
+						<li class="fragment">Try <b style="color: #81C784;">different word lengths</b>? Maybe a 6-letter version?</li>
+						<li class="fragment">How about Wordle in a <b style="color: #64B5F6;">different language</b>? Let user choose the language?</li>
+						<li class="fragment">Or come up with a completely <b style="color: #E57373;">different idea</b>, and see if you can make it a reality!</li>
+					</ul>
+				</section>
+				<section>
+					<h3>Wordle Clone CLI Repo</h3>
+					<h5><em>(with explanation)</em></h5>
+					<a href="https://github.com/CodeYourFuture/wordle-clone-example">CodeYourFuture/wordle-clone-example</a>
+				</section>
+				<section>
+					<h3>Summary</h3>
+					<ul>
+						<li class="fragment">Coding is not just about <b style="color: #E57373;">requirements and deadlines</b>…</li>
+						<li class="fragment">…it's also about the <b style="color: #81C784;">creative process</b></li>
+						<li class="fragment">We started with nothing more than an <b style="color: #FFF176;">idea</b> at the start of the session...</li>
+						<li class="fragment">…but now we have a <b style="color: #64B5F6;">working game</b> which we can play!</li>
+					</ul>
+				</section>
+				<section>
+					<h3>The Power of <em style="color: #FFF176;">Your</em> Ideas 💡</h3>
+					<ul>
+						<li class="fragment"><b style="color: #FFF176;">Ideas</b> don't appear out of thin air. They are influenced by our <b style="color: #FFF176;">life experiences and backgrounds</b>.</li>
+						<li class="fragment"><b style="color: #64B5F6;">CYF trainees <em>(you)</em></b> have life experiences and come from backgrounds which are <b style="color: #64B5F6;">under-represented</b> in the tech industry.</li>
+						<li class="fragment">So you might come up with <b style="color: #81C784;">ideas</b> which the rest of the tech industry is not coming up with!</li>
+						<li class="fragment">Your ideas might be more unique, and <b style="color: #E57373;">unique ideas can be more valuable</b>.</li>
+					</ul>
+				</section>
+			</div>
+		</div>
+
+		<script src="../dist/reveal.js"></script>
+		<script src="../plugin/notes/notes.js"></script>
+		<script src="../plugin/markdown/markdown.js"></script>
+		<script src="../plugin/highlight/highlight.js"></script>
+		<script src="../plugin/zoom/zoom.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealZoom ]
+			});
+		</script>
+	</body>
+</html>
